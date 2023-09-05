@@ -4,7 +4,6 @@ const cors = require('cors')
 
 const { dbConnection } = require('./database/config');
 
-
 // Crear el servidor de express
 const app = express();
 
@@ -23,8 +22,6 @@ app.use( express.json() );
 // Rutas 
 app.use( '/api/auth', require( './routes/auth' ) );
 app.use( '/api/events', require( './routes/events' ) );
-
-
 
 //Escuchar peticioznes
 app.listen( process.env.PORT, () => {

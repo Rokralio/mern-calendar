@@ -75,7 +75,6 @@ const updateEvent = async( req, res = response) => {
       msg: 'hable con el administrador'
     });
   };
-
 };
 
 const deleteEvent = async( req, res = response) => {

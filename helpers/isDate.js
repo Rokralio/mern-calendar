@@ -11,7 +11,6 @@ const isDate = ( value, rest ) => {
   } else {
     return false;
   };
-
 };
 
 module.exports = { 

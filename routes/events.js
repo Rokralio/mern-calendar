@@ -11,8 +11,6 @@ const { validarCampos } = require("../middleware/validar-campos");
 const { isDate } = require("../helpers/isDate");
 const router = Router();
 
-
-
 //Todas tienen que pasar por la validacion del JWT
 router.use( validarJWT );
 
