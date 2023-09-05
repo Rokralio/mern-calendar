@@ -24,7 +24,7 @@ app.use( express.json() );
 app.use( '/api/auth', require( './routes/auth' ) );
 app.use( '/api/events', require( './routes/events' ) );
 
-
+console.log('Hola mundo');
 
 //Escuchar peticioznes
 app.listen( process.env.PORT, () => {
