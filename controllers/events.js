@@ -22,7 +22,7 @@ const createEvent = async( req, res = response) => {
     const eventoGuardado = await evento.save();
     res.json({
       ok:true,
-      msg: eventoGuardado
+      evento: eventoGuardado
     });
   } catch (error) {
     console.log(error)
